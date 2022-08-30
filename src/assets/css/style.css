@@ -1,0 +1,107 @@
+
+@import url(button.css);
+@import url(media.css);
+@import url(color.css);
+@import url(font.css);
+:root {
+  --yellow-color: #fddd05;
+  --blue-color: #080078;
+  --light-color: opacity: 0.5
+}
+
+body {
+  padding: 2rem 2.5rem;
+  height: 100vh;
+  background: url("../images/background.png");
+  background-position: center;
+  font-size: 85%;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  --bs-gutter-x: 6rem;
+}
+
+.sidemenu {
+  width: 25%;
+}
+
+.sidemenu__item {
+    background-color: #fff;
+    padding: .5rem .8rem;
+    color: var(--blue-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidemenu__item {
+    border-top: 1px solid var(--blue-color);
+}
+
+.sidemenu__item img {
+    width: 15px;
+}
+
+.sidemenu__item.sidemenu__item-selected {
+    background: var(--blue-color);
+    color: #FFF;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.stars img {
+    width: 12px;
+    margin-right: 3px;
+}
+
+
+.beach {
+  width: 70%;
+}
+
+.beach__card {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px
+}
+
+.beach__card_top {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.beach__card_top--img {
+  width: 60%;
+}
+
+.beach__card_top--img img {
+  width: 100%;
+  height: 230px;
+}
+
+.beach__card_top--desc {
+  width: 40%;
+  padding: 0.7rem;
+}
+
+.readmore {
+    position: absolute;
+    background-color: #FFF;
+    padding: 0.2rem 0.7rem;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.beach__card-bottom {
+  padding: 1rem 0.7rem;
+}

@@ -1,0 +1,11 @@
+.blue {
+  color: var(--blue-color);
+}
+
+.yellow {
+  color: var(--yellow-color);
+}
+
+.light {
+  opacity: 0.5;
+}

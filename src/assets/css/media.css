@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+  .container .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main .sidemenu,
+  .main .beach {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .beach__card .beach__card_top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .beach__card .beach__card_top--img,
+  .beach__card .beach__card_top--desc {
+    width: 100%;
+  }
+
+  .beach__card .readmore {
+    position: relative;
+  }
+}

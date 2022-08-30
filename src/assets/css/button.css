@@ -1,0 +1,16 @@
+.btn {
+  background-color: var(--yellow-color);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.6rem;
+}
+
+.btn span:first-child {
+  font-size: 0.8rem;
+}
+
+.btn span:last-child {
+  font-size: 1.1rem;
+  font-weight: 500;
+}

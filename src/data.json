@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1adfrr3",
+    "title": "Iberostar Grand Salome",
+    "location": "Costa Adeje, Tenerife",
+    "capacity": {
+      "adults": 2,
+      "children": 2,
+      "infant": 1
+    },
+    "dateAvailable": "3rd July 2019",
+    "duration": "7 days",
+    "departure": "East Midlands",
+    "rating": 5,
+    "price": 1136.5,
+    "overview": "The Iberostar Grand Salome has an exceptional location in the south of Tenerife, overlooking the Atlantic Ocean. It is situated between the Golf del Sur and the Amarillo Golf courses, and is an ideal hotel for families, couples and groups who are looking for a holiday full of sport, sun and sea",
+    "imgURL": "hotel-image-1.png"
+  },
+  {
+    "id": "4857fes",
+    "title": "Aguamarina Golf Hotel",
+    "location": "Costa Adeje, Tenerife",
+    "capacity": {
+      "adults": 2,
+      "children": 1,
+      "infant": 0
+    },
+    "dateAvailable": "3rd July 2019",
+    "duration": "7 days",
+    "departure": "Liverpool",
+    "rating": 3,
+    "price": 696.8,
+    "overview": "The Aguamarina Golf Hotel has an exceptional location in the south of Tenerife, overlooking the Atlantic Ocean. It is situated between the Golf del Sur and the Amarillo Golf courses, and is an ideal hotel for families, couples and groups who are looking for a holiday full of sport, sun and sea",
+    "imgURL": "hotel-image-2.png"
+  },
+  {
+    "id": "46rhfo3",
+    "title": "Las Piramides Resort",
+    "location": "Costa Adeje, Tenerife",
+    "capacity": {
+      "adults": 2,
+      "children": 2,
+      "infant": 0
+    },
+    "dateAvailable": "3rd July 2019",
+    "duration": "7 days",
+    "departure": "Manchester",
+    "rating": 4,
+    "price": 499.99,
+    "overview": "The Las Piramides Resort has an exceptional location in the south of Tenerife, overlooking the Atlantic Ocean. It is situated between the Golf del Sur and the Amarillo Golf courses, and is an ideal hotel for families, couples and groups who are looking for a holiday full of sport, sun and sea",
+    "imgURL": "hotel-image-3.png"
+  }
+]

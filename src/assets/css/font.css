@@ -1,0 +1,27 @@
+em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 1.1rem;
+}
+
+.price {
+}
+
+.overview {
+  margin-bottom: 0.7rem;
+}
+
+.large-text {
+  font-size: 1.1rem;
+}
+
+.medium-text {
+  font-size: 1rem;
+}
+
+.small-text {
+  font-size: 0.8rem;
+}

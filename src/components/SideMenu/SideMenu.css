@@ -1,0 +1,35 @@
+.sidemenu {
+  width: 25%;
+}
+
+.sidemenu__item {
+  background-color: #fff;
+  padding: 0.5rem 0.8rem;
+  color: var(--blue-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidemenu__item {
+  border-top: 1px solid var(--blue-color);
+}
+
+.sidemenu__item img {
+  width: 15px;
+}
+
+.sidemenu__item.sidemenu__item-selected {
+  background: var(--blue-color);
+  color: #fff;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.stars img {
+  width: 12px;
+  margin-right: 3px;
+}
