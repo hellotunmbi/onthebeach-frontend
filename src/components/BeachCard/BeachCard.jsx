@@ -2,7 +2,7 @@ import { useState } from "react";
 import StarRatings from "react-star-ratings";
 
 const BeachCard = ({ details }) => {
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(true);
 
   const toggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
@@ -47,7 +47,7 @@ const BeachCard = ({ details }) => {
           className="readmore blue toggle small-text noselect"
           onClick={toggleCollapse}
         >
-          <em>Read more</em> less about this hotel
+          <em>{isCollapsed ? "Read more" : "Read less"}</em> about this hotel
         </div>
       </div>
       {!isCollapsed && (
